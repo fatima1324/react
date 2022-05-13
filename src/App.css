@@ -1,0 +1,16 @@
+.App {
+ 
+  background-color: rgb(238, 55, 147);
+  color:black;
+  height:100vh
+}
+.one {
+  display: flex;
+  margin-left: 2cm;
+}
+.tow {
+  margin-left: 0.5cm;
+}
+.repo{
+  margin-left: 0.5cm;
+}
