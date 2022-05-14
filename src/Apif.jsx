@@ -20,7 +20,7 @@ class Apif extends Component {
         }
     }
     componentDidMount() {
-        axios.get('http://api.github.com/users/fatima1324?client_id=f73ac3aafb72601ecfb4&client_secret=c4d2b0c28fc12267e2bb9bf3a99bdabb61596b30&sort=created')
+        axios.get('http://api.github.com/users/fatima1324?client_id=&client_secret=&sort=created')
             .then((response) => {
                 // console.log(response.data.repos_url);
                this.setState({
